@@ -9,7 +9,7 @@ public abstract class GamePiece {
     public abstract Pair getPosition();
 
 
-    public abstract ArrayList<Pair> getmoves();
+    public abstract HashSet<Pair> getMoves();
 
 
 

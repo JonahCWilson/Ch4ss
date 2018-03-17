@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.HashSet;
 
 public class GameState {
 
@@ -6,11 +6,18 @@ public class GameState {
     ArrayList<GamePiece> white, black;
 
 
-    public GameState(){
 
+    public GameState(){
+        white = new HashSet<GamePiece>();
+        black = new HashSet<GamePiece>();
     }
 
     public void startGame(){
+        System.out.println("I'm working");
+    }
 
+    private HashSet<GamePiece> getBlackTeam(){
+        HashSet output = new HashSet();
+        euoeu
     }
 }
