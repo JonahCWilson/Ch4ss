@@ -1,9 +1,13 @@
+package Game;
+
+import Pieces.GamePiece;
+
 import java.util.HashSet;
 
 public class GameState {
 
     Gameboard board = new Gameboard();
-    ArrayList<GamePiece> white, black;
+    HashSet<GamePiece> white, black;
 
 
 
@@ -18,6 +22,7 @@ public class GameState {
 
     private HashSet<GamePiece> getBlackTeam(){
         HashSet output = new HashSet();
-        euoeu
+
+        return output;
     }
 }

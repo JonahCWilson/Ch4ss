@@ -1,4 +1,5 @@
-import java.util.HashMap;
+package Game;
+
 import java.util.HashSet;
 
 public class Gameboard extends HashSet<Pair>{

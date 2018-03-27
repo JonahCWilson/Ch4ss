@@ -1,5 +1,7 @@
-import javax.swing.plaf.synth.Region;
-import java.util.ArrayList;
+package Pieces;
+
+import Game.Pair;
+import java.util.HashSet;
 
 public abstract class GamePiece {
 
